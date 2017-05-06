@@ -1,0 +1,140 @@
+
+
+body{
+margin:0px;
+background: -webkit-radial-gradient(yellow, green);
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	width:600px;
+	height:1000px;
+	margin-top: 190px;
+}
+
+#android *{
+	background: #A4CA39;
+	margin-left:auto;
+	margin-right:auto;
+	border: 2px solid;
+    border-radius: 25px;
+}
+
+#lefthorn{
+	width:10px;
+	height:60px;
+	margin-top: -50px;
+	margin-left:200px;
+	transform: rotate(30deg);
+	border-radius: 10px 10px 0px 0px;
+	position:absolute;
+}
+
+#righthorn{
+	width:10px;
+	height:60px;
+	margin-top: -50px;
+	margin-left:105px;
+	transform: rotate(-30deg);
+	border-radius: 10px 10px 0px 0px;
+	position:absolute;
+}
+
+
+#head{
+	width:300px;
+	height:130px;
+	border-radius: 120px 120px 0px 0px;
+	position:relative;
+	}
+
+#lefteye{
+	width: 30px;
+	height: 30px;
+	background: white;
+	border-radius: 50px 50px 50px 50px;
+	margin-left: 75px;
+	margin-top: 60px;
+	position:absolute;
+}
+
+#righteye{
+	width: 30px;
+	height: 30px;
+	background: white;
+	border-radius: 50px 50px 50px 50px;
+	margin-left: 200px;
+	margin-top: 60px;
+	position:absolute;
+}
+
+#mainbody{
+	width:300px;
+	height:300px;
+	margin-top: 10px;
+	border-radius: 0px 0px 50px 50px;
+	position:relative;
+	}
+
+#leftarm{
+	width: 70px;
+	height:200px;
+	border-radius: 50px 50px 50px 50px;
+	margin-left: -90px;
+	position:absolute;
+
+
+}
+
+#rightarm{
+	width: 70px;
+	height:200px;
+	border-radius: 50px 50px 50px 50px;
+	margin-left: 315px;
+	position:absolute;
+}
+
+#leftleg{
+	width: 70px;
+	height:200px;
+	border-radius: 50px 50px 50px 50px;
+	margin-top: 230px;
+	margin-left: 150px;
+	position:absolute;
+	z-index: -1;
+}
+
+#rightleg{
+	width: 70px;
+	height:200px;
+	border-radius: 50px 50px 50px 50px;
+	margin-top: 230;
+	margin-left: 60px;
+	position:absolute;
+	z-index:-1;
+}
+
+#rightleg:hover{
+    transform-origin: top; transform: rotate(-10deg);
+}
+
+
+#rightarm:hover{
+    transform-origin: top; transform: rotate(-35deg);
+}
+
+#leftarm:hover{
+    transform-origin: top; transform: rotate(15deg);
+}
+
+#head:hover{
+    transform-origin: left; transform: rotate(-15deg);
+}
+
+#lefteye:hover{
+    transform-origin: left; transform: rotate(-15deg);
+}
+
+
+
